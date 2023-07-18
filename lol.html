@@ -90,12 +90,16 @@ footer {
   padding: 10px;
 }
 
+span.test2 {
+  writing-mode: vertical-rl;
+}
+
 @keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
+  25%  {background-color:yellow; left:600px; top:0px;}
+  50%  {background-color:blue; left:400px; top:300px;}
   75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
+  100% {background-color:red; left:150px; top:300px;}
 }
 
 </style>
@@ -109,7 +113,11 @@ footer {
 <section>
   <nav>
     <ul>
-      <li><a href="#">this.</a></li>
+      <li>
+        <a href="#">
+          <span class="test2">this is a wholesome prank</span>
+        </a>
+      </li>
     </ul>
   </nav>
   
